@@ -1,0 +1,134 @@
+/* {
+	border: 1px solid red;
+}*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #0c69b2;
+}
+
+.mainTitle {
+	display: table;
+	font-family: Candal;
+	font-weight: 600;
+	font-size: 4em;
+	color: #ffa111;
+	margin: 40px auto auto auto;
+	text-shadow: 0px 0px 50px #ffdaa1;
+}
+
+.mainTitleDescription {
+	display: table;
+	margin: 20px auto auto auto;
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 1.5em;
+	color: #ffdaa1;
+	opacity: 0.5;
+}
+
+.timeD {
+	display: table;
+	margin: 0px auto auto auto;
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 1.5em;
+	color: #ffdaa1;
+	opacity: 0.5;
+}
+
+.spacer {
+	padding-top: 30px;
+}
+
+.weatherSection {
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 1.5em;
+	color: #ffdaa1;
+}
+
+.centralised {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.spacerEdge {
+	width: 10%;
+}
+
+.spacerMid {
+	width: 2%;
+}
+
+.leftDesc {
+	width: 39%;
+	text-align: right;
+}
+
+.rightData {
+	width: 39%;
+	text-align: left;
+}
+
+.weatherDescription {
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 1.5em;
+	color: #ffdaa1;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.weatherIcon {
+	position: relative;
+	bottom: 5px;
+	left: -10px;
+}
+
+.weatherDescText {
+	height: 50px;
+}
+
+.pad {
+	padding-top: 1%;
+}
+
+.footer {
+	font-family: Raleway;
+	font-weight: 200;
+	font-size: 1.5em;
+	color: #ffdaa1;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	opacity: 0.5;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+}
+
+.footer:hover {
+	text-decoration: none;
+	color: #ffa111;
+	opacity: 0.9;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:link {
+	color: #ffdaa1;
+}
+
+.footer a:visited {
+	color: #ffdaa1;
+}
+
+.footer a:visited:hover {
+	color: #ffa111;
+}
